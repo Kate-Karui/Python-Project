@@ -1,5 +1,5 @@
 import random
-import time
+
 
 HANGMANPICS = ['''
   +---+
@@ -66,6 +66,7 @@ def username():
 def guesswords():
   guesses = ''
   attempts = 7
+  hang = -1
   while attempts > 0:
     failed = 0
     for letter in word:
@@ -84,6 +85,8 @@ def guesswords():
     else:
       print("Wrong!")
       attempts -= 1
+      hang += 1
+      print(HANGMANPICS[hang])
     if attempts == 0:
       print("You lose!")
       print("The word was:", word)
