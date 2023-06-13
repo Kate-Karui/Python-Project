@@ -1,34 +1,52 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Hangman Game
 
-Welcome,
+This is a simple command-line Hangman game written in Python.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **March 14, 2023**
+## Features
 
-## Reminders
+### Existing Features
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
+- __Random Word Selection__ - The game will randomly select a word from the word bank and display it as a series of underscores.
+![Username](assets/images/Name%20and%20start%20of%20game.png)
+- __Guessing__ - You can guess a letter or the whole word by typing it in and pressing enter. If you guess correctly, the letter(s) will be revealed. If you guess incorrectly, a part of the hangman will be drawn.
 
-## Creating the Heroku app
+  ![Guessing](assets/images/guessing.png)
+- __Hangman ASCII Art__ - A visual representation of hangman using ASCII art is displayed as you make incorrect guesses.
+- __Attempts__ - You have 7 attempts to guess the word before the hangman is fully drawn and you lose the game.
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+## How to Play
 
-1. `heroku/python`
-2. `heroku/nodejs`
+1. Run the script in a Python environment.
+2. Enter your name when prompted.
+3. Start guessing letters or the whole word.
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+## Requirements
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+- Python 3.x
+- A text file named "wordbank.txt" containing a comma-separated list of words to use as the word bank.
 
-Connect your GitHub repository and deploy as normal.
+## Testing
 
-## Constraints
+- Test that the game selects a random word from the word bank.
+- Test that the game correctly reveals letters when they are guessed.
+- Test that the game correctly draws the hangman when incorrect guesses are made.
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+## Bugs
 
----
+No bugs found.
 
-Happy coding!
+### Validator Testing
 
-https://gist.github.com/chrishorton/8510732aa9a80a03c829b09f12e20d9c
+- Python - No errors were found when passing through a Python validator.
+
+### Unfixed Bugs
+
+- List any unfixed bugs here.
+
+## Deployment
+
+- Provide instructions on how to deploy the game.
+
+## Credits
+- [The Hangman ASCII Art](https://gist.github.com/chrishorton/8510732aa9a80a03c829b09f12e20d9c)
+- Bing AI Help
