@@ -7,7 +7,7 @@ This is a simple command-line Hangman game written in Python.
 ### Existing Features
 
 - __Random Word Selection__ - The game will randomly select a word from the word bank and display it as a series of underscores.
-![Username](assets/images/Name%20and%20start%20of%20game.png)
+![Username](assets/images/name_and_start_of_game.png)
 - __Guessing__ - You can guess a letter or the whole word by typing it in and pressing enter. If you guess correctly, the letter(s) will be revealed. If you guess incorrectly, a part of the hangman will be drawn.
 
   ![Guessing](assets/images/guessing.png)
@@ -41,7 +41,7 @@ No bugs found.
 
 ### Unfixed Bugs
 
-- List any unfixed bugs here.
+- None
 
 ## Deployment
 
