@@ -45,7 +45,7 @@ No bugs found.
 
 ## Deployment
 
-- Provide instructions on how to deploy the game.
+- It's depoyled [here](https://fun-hangman-game-631baddc543e.herokuapp.com/)
 
 ## Credits
 - [The Hangman ASCII Art](https://gist.github.com/chrishorton/8510732aa9a80a03c829b09f12e20d9c)

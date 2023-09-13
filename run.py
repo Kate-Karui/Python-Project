@@ -63,9 +63,10 @@ def wordlist():
 def username():
     name = input("What is your name?: ")
     print("Hello " + name + ",", "are you able to guess the word?")
+    return name
 
 
-def guesswords():
+def guesswords(name):
     guesses = ''
     attempts = 7
     hang = -1
@@ -111,9 +112,20 @@ def guesswords():
 
 
 def functions():
-    username()
-    wordlist()
-    guesswords()
+    name = username()
+    play_again = True
+    while play_again:
+        wordlist()
+        guesswords(name)
+        answer = input("Wanna go again? [Y/N]: ").upper()
+        if answer == "Y" or answer == "YES":
+            play_again = True
+        elif answer == "N" or answer == "NO":
+            play_again = False
+            print("Goodbye", name)
+        else:
+            print("Invalid input. Please enter Y or N.")
 
 
 functions()
+
