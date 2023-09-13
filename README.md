@@ -1,6 +1,6 @@
 # Hangman Game
 
-This is a simple command-line Hangman game written in Python.
+This is a simple command-line hangman game written in Python.
 
 ## Features
 
@@ -11,7 +11,7 @@ This is a simple command-line Hangman game written in Python.
 - __Guessing__ - You can guess a letter or the whole word by typing it in and pressing enter. If you guess correctly, the letter(s) will be revealed. If you guess incorrectly, a part of the hangman will be drawn.
 
   ![Guessing](assets/images/guessing.png)
-- __Hangman ASCII Art__ - A visual representation of hangman using ASCII art is displayed as you make incorrect guesses.
+- __Hangman ASCII Art__ - A visual representation of hangman using ASCII art, it is displayed as you make incorrect guesses.
 - __Attempts__ - You have 7 attempts to guess the word before the hangman is fully drawn and you lose the game.
 
 ## How to Play
@@ -45,7 +45,7 @@ No bugs found.
 
 ## Deployment
 
-- It's depoyled [here](https://fun-hangman-game-631baddc543e.herokuapp.com/)
+- It's deployed [here](https://fun-hangman-game-631baddc543e.herokuapp.com/)
 
 ## Credits
 - [The Hangman ASCII Art](https://gist.github.com/chrishorton/8510732aa9a80a03c829b09f12e20d9c)
